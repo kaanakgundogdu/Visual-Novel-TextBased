@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346a03f60d7ad264bad3a5d815aa4893, type: 3}
+  m_Name: Whats Your Last Name
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: kaan
+    portrait: {fileID: 0}
+    myText: wow tahts great
+  questionText: 'Whats your last name
+
+'
+  optionsInfo:
+  - buttonName: Smith
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: dont have any
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

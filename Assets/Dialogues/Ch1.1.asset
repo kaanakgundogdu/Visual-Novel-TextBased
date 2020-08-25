@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346a03f60d7ad264bad3a5d815aa4893, type: 3}
+  m_Name: Ch1.1
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Neyse ki \u015Falterler bu taraftaym\u0131\u015F."
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Korkuyorum. Bir \u015Feyler \xE7ok garip."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Bekle biraz a\xE7t\u0131m i\u015Fte. "
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Ohhh be sonunda ayd\u0131nl\u0131k."
+  - myName: 
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Tam o s\u0131rada bir \xE7\u0131\u011Fl\u0131k sesi duyduk ve hemen
+      tuvalete do\u011Fru y\xF6neldik."
+  - myName: 
+    portrait: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myText: "Bir k\u0131z tuvaletin giri\u015Finde donup kalm\u0131\u015Ft\u0131
+      ve kar\u015F\u0131s\u0131nda ise yerde yatan biri vard\u0131."
+  questionText: End Of the Chapter 1
+  optionsInfo:
+  - buttonName: Chapter 2
+    nextDialogue: {fileID: 11400000, guid: a772b10da71f244478c4b1558137979c, type: 2}
+    optionsImage: {fileID: 21300000, guid: c25c9cdaa6955df4ba6d4f10da4b6b79, type: 3}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

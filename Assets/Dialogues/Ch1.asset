@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346a03f60d7ad264bad3a5d815aa4893, type: 3}
+  m_Name: Ch1
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: 
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "Kar taneleri cama vuruyordu. D\u0131\u015Far\u0131ya bakt\u0131\u011F\u0131mda
+      ise kar yollar\u0131 kapam\u0131\u015Ft\u0131."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "Kar f\u0131rt\u0131nas\u0131n\u0131n \xE7\u0131kard\u0131\u011F\u0131
+      u\u011Fultuyu duyuyor musun? "
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "Bu gece burada mahsur kald\u0131k gibi."
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "K\xFCt\xFCphanede benle senin d\u0131\u015F\u0131nda 3-5 ki\u015Fi daha
+      var san\u0131r\u0131m umar\u0131m k\xF6t\xFC bir \u015Fey olmaz."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "Birinin ba\u015F\u0131na bir \u015Fey gelse bile bu havada ne ambulans
+      ne de polis gelebilir."
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: d6b41a6ff28998445a92e9405a9bf0c2, type: 3}
+    myText: "\xDCniversiteleri da\u011F ba\u015F\u0131na yaparlarsa olaca\u011F\u0131
+      bu."
+  - myName: 
+    portrait: {fileID: 21300000, guid: 7afc18b8d3afec14cb901a29a34831cd, type: 3}
+    myText: "\u015Eom a\u011Fz\u0131mdan m\u0131d\u0131r nedir bilmem ama tam o s\u0131rada
+      \u0131\u015F\u0131klarda bir dalgalanma oldu ve \u015Falterler att\u0131. "
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: b8e45c1217471b44188436ab636f01a4, type: 3}
+    myText: "Bir \xE7\u0131\u011Fl\u0131k sesi duydum gibi."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: b8e45c1217471b44188436ab636f01a4, type: 3}
+    myText: "Sa\xE7malama r\xFCzgar\u0131n u\u011Fultusu faland\u0131r. Ya da birisi
+      elektrikler kesilince korkmu\u015F ba\u011F\u0131rm\u0131\u015Ft\u0131r."
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: b8e45c1217471b44188436ab636f01a4, type: 3}
+    myText: "Sanki birisinin can\u0131 yanm\u0131\u015F gibi ac\u0131 bir \xE7\u0131\u011Fl\u0131k
+      duydum gibi."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: b8e45c1217471b44188436ab636f01a4, type: 3}
+    myText: "Takma bo\u015F ver. Hadi gidelim bakal\u0131m \u015Falter neredeyse
+      bulal\u0131m."
+  - myName: 
+    portrait: {fileID: 21300000, guid: 3aabcb68054abf245958ca2bcf3df039, type: 3}
+    myText: "Telefonumun fla\u015F\u0131n\u0131 a\xE7\u0131p Onna ile beraber kap\u0131ya
+      do\u011Fru yol ald\u0131k. Kat plan\u0131n\u0131 g\xF6z\xFCm\xFCn \xF6n\xFCne
+      getirmeye \xE7al\u0131\u015Ft\u0131m."
+  questionText: Hangi Odaya Gitmek istiyorsun.
+  optionsInfo:
+  - buttonName: "Giri\u015F B\xF6l\xFCm\xFC"
+    nextDialogue: {fileID: 11400000, guid: 85b016b68e314cb4e8d29c7df066f32a, type: 2}
+    optionsImage: {fileID: 21300000, guid: 3aabcb68054abf245958ca2bcf3df039, type: 3}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: "Kay\u0131t Yeri"
+    nextDialogue: {fileID: 11400000, guid: edea5f032c07b3a43bb28f5830ba870a, type: 2}
+    optionsImage: {fileID: 21300000, guid: 3aabcb68054abf245958ca2bcf3df039, type: 3}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

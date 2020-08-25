@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346a03f60d7ad264bad3a5d815aa4893, type: 3}
+  m_Name: Ch1.2
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "\u015Ealter san\u0131r\u0131m burada de\u011Fil."
+  - myName: Ore
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "Yan\u0131k m\u0131 kokuyor ne?"
+  - myName: Onna
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: Evet bana da geldi.
+  - myName: 
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "Tuvalete do\u011Fru ilerledim. Kola dokundu\u011Fum anda s\u0131cakl\u0131k
+      birlikte i\xE7imde inan\u0131lmaz bir tedirginlik olu\u015Ftu."
+  - myName: 
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "Kap\u0131 kolu \xE7ok s\u0131cakt\u0131. \u0130\xE7eri do\u011Fru girdi\u011Fim
+      anda yerde yatan birini g\xF6rd\xFCm."
+  - myName: 
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "Hemen Onna'ya d\xF6n\xFCp onu giri\u015Fe g\xF6nderdim ve \u015Falteri
+      a\xE7t\u0131rd\u0131m."
+  - myName: 
+    portrait: {fileID: 21300000, guid: 0ceb126d55663c04583aba9e1647ac63, type: 3}
+    myText: "I\u015F\u0131klar a\xE7\u0131l\u0131r a\xE7\u0131lmaz bir \xE7\u0131\u011Fl\u0131k
+      sesi duydum olay o kadar beni \u015Fok etmi\u015Ftiki yan\u0131mdaki k\u0131z\u0131
+      fark etmemi\u015Ftim bile."
+  questionText: End Of the Chapter 1
+  optionsInfo:
+  - buttonName: Chapter 2
+    nextDialogue: {fileID: 11400000, guid: a772b10da71f244478c4b1558137979c, type: 2}
+    optionsImage: {fileID: 21300000, guid: 7afc18b8d3afec14cb901a29a34831cd, type: 3}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
